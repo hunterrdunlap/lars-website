@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="de">
   <head>
-    <title data-lang-en="Home" data-lang-de="Startseite">Home</title>
+    <title
+      data-lang-de="Dr. Lars Haffke - Startseite"
+      data-lang-en="Dr. Lars Haffke - Home"
+    >
+      Dr. Lars Haffke - Startseite
+    </title>
     <meta name="format-detection" content="telephone=no" />
     <meta
       name="viewport"
@@ -10,7 +15,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <!-- Stylesheets-->
     <link
       rel="stylesheet"
       type="text/css"
@@ -19,12 +23,24 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      /* Optional: Style for social icons if needed */
+      .rd-navbar-list .list-inline-item a .fa-brands {
+        font-size: 1.2em; /* Adjust size as needed */
+        vertical-align: middle;
+      }
+      .rd-navbar-list .list-inline-item a {
+        padding: 5px; /* Add some padding */
+      }
+    </style>
   </head>
   <body>
     <div class="page">
-      <!-- Page Header<a class="banner banner-top" href="https://www.templatemonster.com/website-templates/monstroid2.html" target="_blank"><img src="images/monstroid.jpg" alt="" height="0"/></a> -->
       <header class="section page-header" style="position: relative">
-        <!-- RD Navbar-->
         <div class="rd-navbar-wrap rd-navbar-absolute">
           <nav
             class="rd-navbar rd-navbar-thin"
@@ -53,44 +69,51 @@
                 <span></span>
               </button>
               <div class="rd-navbar-main">
-                <!-- RD Navbar Panel-->
                 <div class="rd-navbar-panel">
-                  <!-- RD Navbar Toggle-->
                   <button
                     class="rd-navbar-toggle"
                     data-rd-navbar-toggle="#rd-navbar-nav-wrap-1, #rd-navbar-hidden-1"
                   >
                     <span></span>
                   </button>
-                  <!-- RD Navbar Brand--><a
-                    class="rd-navbar-brand"
-                    href="index.html"
+                  <a class="rd-navbar-brand" href="index.html"
                     ><img
                       src="images/LarsWebsiteLogo.png"
-                      alt=""
+                      alt="Dr. Lars Haffke Logo"
                       width="199"
                       height="22"
                   /></a>
                   <div class="rd-navbar-block" id="rd-navbar-hidden-1">
                     <div class="rd-navbar-collapse">
                       <ul class="list-inline-bordered rd-navbar-list">
+                        <li class="list-inline-item">
+                          <a
+                            href="https://www.linkedin.com/in/dr-lars-haffke-38078492/"
+                            target="_blank"
+                            title="LinkedIn Profil"
+                          >
+                            <i class="fa-brands fa-linkedin"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a
+                            href="https://www.xing.com/profile/Lars_Haffke"
+                            target="_blank"
+                            title="Xing Profil"
+                          >
+                            <i class="fa-brands fa-xing"></i>
+                          </a>
+                        </li>
                         <li>
-                          <span class="icon mdi mdi-comment-text-outline"></span
-                          ><a
-                            href="contacts.html"
-                            data-lang-en="Contact"
-                            data-lang-de="Kontakt"
-                            >Kontakt</a
+                          <span class="icon mdi mdi-email-outline"></span>
+                          <a href="mailto:mail@larshaffke.com"
+                            >mail@larshaffke.com</a
                           >
                         </li>
-                        <li>
-                          <span class="icon mdi mdi-cellphone-android"></span
-                          ><a href="tel:#">+49 30 439725866</a>
-                        </li>
-                        <!-- Language Switcher -->
+
                         <li>
                           <button
-                            class="button button-xs button-primary button-winona lang-switch"
+                            class="button button-xs button-default-outline button-winona lang-switch"
                             data-lang="en"
                           >
                             EN
@@ -98,24 +121,17 @@
                         </li>
                         <li>
                           <button
-                            class="button button-xs button-default-outline button-winona lang-switch"
+                            class="button button-xs button-primary button-winona lang-switch"
                             data-lang="de"
                           >
                             DE
                           </button>
                         </li>
-                        <!-- End Language Switcher -->
                       </ul>
                     </div>
-                    <button
-                      class="rd-navbar-search-toggle"
-                      data-rd-navbar-toggle="#rd-navbar-search-1"
-                    >
-                      <span></span>
-                    </button>
                   </div>
                 </div>
-                <!-- RD Navbar Search-->
+
                 <div class="rd-navbar-search" id="rd-navbar-search-1">
                   <form
                     class="rd-search"
@@ -127,9 +143,9 @@
                       <label
                         class="form-label"
                         for="rd-navbar-search-form-input-1"
-                        data-lang-en="Search..."
                         data-lang-de="Suchen..."
-                        >Search...</label
+                        data-lang-en="Search..."
+                        >Suchen...</label
                       >
                       <input
                         class="form-input rd-navbar-search-form-input"
@@ -149,52 +165,68 @@
                     ></button>
                   </form>
                 </div>
+
                 <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
-                  <!-- RD Navbar Brand--><a
-                    class="rd-navbar-brand"
-                    href="index.html"
+                  <a class="rd-navbar-brand" href="index.html"
                     ><img
                       src="images/LarsWebsiteLogo.png"
-                      alt=""
+                      alt="Dr. Lars Haffke Logo"
                       width="299"
                       height="33"
                   /></a>
-                  <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
                     <li class="rd-nav-item active">
                       <a
                         class="rd-nav-link"
                         href="index.html"
-                        data-lang-en="Home"
                         data-lang-de="Startseite"
-                        >Home</a
+                        data-lang-en="Home"
+                        >Startseite</a
                       >
                     </li>
                     <li class="rd-nav-item">
                       <a
                         class="rd-nav-link"
-                        href="our-founder.html"
-                        data-lang-en="Our Founder"
-                        data-lang-de="Unser Gründer"
-                        >Our Founder</a
+                        href="#ueber-mich"
+                        data-lang-de="Über mich"
+                        data-lang-en="About Me"
+                        >Über mich</a
                       >
                     </li>
                     <li class="rd-nav-item">
                       <a
                         class="rd-nav-link"
-                        href="typography.html"
-                        data-lang-en="Typography"
-                        data-lang-de="Typografie"
-                        >Typography</a
+                        href="leistungen.html"
+                        data-lang-de="Leistungen"
+                        data-lang-en="Services"
+                        >Leistungen</a
                       >
                     </li>
                     <li class="rd-nav-item">
                       <a
                         class="rd-nav-link"
-                        href="contacts.html"
-                        data-lang-en="Contacts"
-                        data-lang-de="Kontakte"
-                        >Contacts</a
+                        href="vita.html"
+                        data-lang-de="Vita"
+                        data-lang-en="Vita"
+                        >Vita</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a
+                        class="rd-nav-link"
+                        href="publikationen.html"
+                        data-lang-de="Publikationen"
+                        data-lang-en="Publications"
+                        >Publikationen</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a
+                        class="rd-nav-link"
+                        href="mailto:mail@larshaffke.com"
+                        data-lang-de="Kontakt"
+                        data-lang-en="Contact"
+                        >Kontakt</a
                       >
                     </li>
                   </ul>
@@ -204,7 +236,7 @@
           </nav>
         </div>
       </header>
-      <!-- FScreen-->
+
       <section
         class="section section-halfscreen bg-image"
         style="background-image: url(images/header-bg.jpg)"
@@ -212,131 +244,146 @@
         <div class="section-halfscreen-inner">
           <div
             class="section-halfscreen-image wow fadeIn"
-            style="background-image: url(images/screens-1-960x752.jpg)"
+            style="
+              background-image: url(images/lars-haffke-header-placeholder.jpg);
+            "
           ></div>
           <div class="container">
             <div class="row">
-              <div class="col-md-6 col-lg-5">
+              <div class="col-md-7 col-lg-6">
                 <div class="section-halfscreen-content">
-                  <div class="wow-outer heading-3">
-                    <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                      <span
-                        class="font-weight-bold"
-                        data-lang-en="Consulting"
-                        data-lang-de="Beratung"
-                        >Consulting</span
-                      ><br /><span class="font-weight-bold sumbol text-primary"
-                        >&</span
-                      ><span
-                        class="font-weight-light"
-                        data-lang-en="Planning"
-                        data-lang-de="Planung"
-                        >Planning</span
-                      >
-                    </h2>
-                  </div>
-                  <div class="wow-outer p">
-                    <p
-                      class="custom-article wow fadeInDown"
+                  <div class="wow-outer blockquote-modern">
+                    <blockquote
+                      class="quote-modern wow fadeInDown"
                       data-wow-delay=".2s"
-                      data-lang-en="Our company provides a variety of consulting and planning services that help small and medium busineses worldwide."
-                      data-lang-de="Unser Unternehmen bietet eine Vielzahl von Beratungs- und Planungsleistungen an, die kleinen und mittleren Unternehmen weltweit helfen."
                     >
-                      Our company provides a variety of consulting and planning
-                      services that help small and medium busineses worldwide.
-                    </p>
+                      <q
+                        data-lang-de="Geldwäschecompliance effektiv und kostengünstig gestalten – das mache ich mit klaren Prozessen, strukturiertem Vorgehen und digitalen Tools."
+                        data-lang-en="Designing anti-money laundering compliance effectively and cost-efficiently – I achieve this with clear processes, a structured approach, and digital tools."
+                      >
+                        Geldwäschecompliance effektiv und kostengünstig
+                        gestalten – das mache ich mit klaren Prozessen,
+                        strukturiertem Vorgehen und digitalen Tools.
+                      </q>
+                    </blockquote>
                   </div>
-                  <a
-                    class="button button-primary button-winona wow fadeIn"
-                    href="#"
-                    data-lang-en="Read More"
-                    data-lang-de="Weiterlesen"
-                    >Read More</a
-                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="tabs-horizontal"></div>
-      <!-- Small Features-->
+
       <section class="section section-lg bg-gray-100">
         <div class="container">
-          <div class="row row-30">
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Minimal-->
+          <div class="row row-30 justify-content-center">
+            <div class="col-sm-6 col-lg-3 wow-outer">
               <article class="box-minimal">
                 <div
-                  class="box-minimal-icon linearicons-pie-chart wow fadeIn"
+                  class="box-minimal-icon linearicons-shield wow fadeIn"
                 ></div>
                 <div class="box-minimal-main wow-outer">
                   <h4
                     class="box-minimal-title wow slideInDown"
-                    data-lang-en="Analytics"
-                    data-lang-de="Analytik"
+                    data-lang-de="Externer Geldwäschebeauftragter"
+                    data-lang-en="External Money Laundering Reporting Officer"
                   >
-                    Analytics
+                    Externer Geldwäschebeauftragter
                   </h4>
                   <p
                     class="wow fadeInUpSmall"
-                    data-lang-en="Let us help you set the right direction with analytics services to build a successful business."
-                    data-lang-de="Lassen Sie uns Ihnen helfen, mit Analysediensten die richtige Richtung für den Aufbau eines erfolgreichen Unternehmens festzulegen."
+                    data-lang-de="Übernahme der Funktion für Verpflichtete aller Branchen"
+                    data-lang-en="Assuming the function for obliged entities across all sectors"
                   >
-                    Let us help you set the right direction with analytics
-                    services to build a successful business.
+                    Übernahme der Funktion für Verpflichtete aller Branchen
                   </p>
                 </div>
               </article>
             </div>
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Minimal-->
+            <div class="col-sm-6 col-lg-3 wow-outer">
               <article class="box-minimal">
                 <div
-                  class="box-minimal-icon linearicons-briefcase wow fadeIn"
+                  class="box-minimal-icon linearicons-graduation-hat wow fadeIn"
                   data-wow-delay=".1s"
                 ></div>
                 <div class="box-minimal-main wow-outer">
                   <h4
                     class="box-minimal-title wow slideInDown"
                     data-wow-delay=".1s"
+                    data-lang-de="Lehrbeauftragter"
+                    data-lang-en="Lecturer"
                   >
-                    Management
+                    Lehrbeauftragter
                   </h4>
                   <p
                     class="wow fadeInUpSmall"
                     data-wow-delay=".1s"
-                    data-lang-en="The business management services we offer allow CEOs to better manage the vital business processes."
-                    data-lang-de="Die von uns angebotenen Unternehmensführungsdienste ermöglichen es CEOs, die wichtigen Geschäftsprozesse besser zu verwalten."
+                    data-lang-de="Lehrbeauftragter für Compliance und Geldwäscheprävention an der TU München"
+                    data-lang-en="Lecturer for Compliance and Anti-Money Laundering Prevention at TU Munich"
                   >
-                    The business management services we offer allow CEOs to
-                    better manage the vital business processes.
+                    Lehrbeauftragter für Compliance und Geldwäscheprävention an
+                    der TU München
                   </p>
                 </div>
               </article>
             </div>
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Minimal-->
+            <div class="col-sm-6 col-lg-3 wow-outer">
               <article class="box-minimal">
                 <div
-                  class="box-minimal-icon linearicons-credit-card wow fadeIn"
+                  class="box-minimal-icon linearicons-pencil wow fadeIn"
                   data-wow-delay=".2s"
                 ></div>
                 <div class="box-minimal-main wow-outer">
                   <h4
                     class="box-minimal-title wow slideInDown"
                     data-wow-delay=".2s"
+                    data-lang-de="Autor"
+                    data-lang-en="Author"
                   >
-                    Finance
+                    Autor
                   </h4>
                   <p
                     class="wow fadeInUpSmall"
                     data-wow-delay=".2s"
-                    data-lang-en="Diverse financial solutions provided by our experts guarantee increased profits for your business."
-                    data-lang-de="Vielfältige Finanzlösungen unserer Experten garantieren höhere Gewinne für Ihr Unternehmen."
+                    data-lang-de="Herausgeber und Autor zahlreicher Fachpublikationen."
+                    data-lang-en="Editor and author of numerous specialist publications."
                   >
-                    Diverse financial solutions provided by our experts
-                    guarantee increased profits for your business.
+                    Herausgeber und Autor zahlreicher Fachpublikationen.
+                  </p>
+                  <a
+                    href="publikationen.html"
+                    class="button button-link wow fadeInUpSmall"
+                    data-wow-delay=".2s"
+                    data-lang-de="Zu den Publikationen"
+                    data-lang-en="View Publications"
+                    >Zu den Publikationen</a
+                  >
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3 wow-outer">
+              <article class="box-minimal">
+                <div
+                  class="box-minimal-icon linearicons-bullhorn wow fadeIn"
+                  data-wow-delay=".3s"
+                ></div>
+                <div class="box-minimal-main wow-outer">
+                  <h4
+                    class="box-minimal-title wow slideInDown"
+                    data-wow-delay=".3s"
+                    data-lang-de="Speaker"
+                    data-lang-en="Speaker"
+                  >
+                    Speaker
+                  </h4>
+                  <p
+                    class="wow fadeInUpSmall"
+                    data-wow-delay=".3s"
+                    data-lang-de="Regelmäßige Vorträge auf Fachkonferenzen für Wissenschaft und Praxis"
+                    data-lang-en="Regular presentations at specialist conferences for academia and practice"
+                  >
+                    Regelmäßige Vorträge auf Fachkonferenzen für Wissenschaft
+                    und Praxis
                   </p>
                 </div>
               </article>
@@ -344,352 +391,8 @@
           </div>
         </div>
       </section>
-      <!-- Advantages and Achievements-->
-      <section class="section section-lg text-center">
-        <div class="container">
-          <h3 class="wow-outer">
-            <span
-              class="wow slideInUp"
-              data-lang-en="Our Achievements"
-              data-lang-de="Unsere Erfolge"
-              >Our Achievements</span
-            >
-          </h3>
-          <p class="wow-outer">
-            <span
-              class="text-width-1 wow slideInDown"
-              data-lang-en="Since our establishment in 2002, our team has achieved a lot. Below are some statistics and interesting facts about our business consulting company."
-              data-lang-de="Seit unserer Gründung im Jahr 2002 hat unser Team viel erreicht. Nachfolgend finden Sie einige Statistiken und interessante Fakten über unser Unternehmensberatungsunternehmen."
-              >Since our establishment in 2002, our team has achieved a lot.
-              Below are some statistics and interesting facts about our business
-              consulting company.</span
-            >
-          </p>
-          <div class="row row-50">
-            <div class="col-6 col-md-3 wow-outer">
-              <!-- Counter Minimal-->
-              <article class="counter-minimal wow slideInDown">
-                <div class="counter-minimal-icon linearicons-star"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">12</div>
-                </div>
-                <h5
-                  class="counter-minimal-title"
-                  data-lang-en="International Awards"
-                  data-lang-de="Internationale Auszeichnungen"
-                >
-                  International Awards
-                </h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <!-- Counter Minimal-->
-              <article class="counter-minimal wow slideInDown">
-                <div class="counter-minimal-icon linearicons-folder"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">99</div>
-                  <span class="value">%</span>
-                </div>
-                <h5
-                  class="counter-minimal-title"
-                  data-lang-en="Satisfied Clients"
-                  data-lang-de="Zufriedene Kunden"
-                >
-                  Satisfied Clients
-                </h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <!-- Counter Minimal-->
-              <article class="counter-minimal wow slideInDown">
-                <div class="counter-minimal-icon linearicons-flag"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">15</div>
-                </div>
-                <h5
-                  class="counter-minimal-title"
-                  data-lang-en="Years of Experience"
-                  data-lang-de="Jahre Erfahrung"
-                >
-                  Years of Experience
-                </h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <!-- Counter Minimal-->
-              <article class="counter-minimal wow slideInDown">
-                <div class="counter-minimal-icon linearicons-lamp"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">54</div>
-                </div>
-                <h5
-                  class="counter-minimal-title"
-                  data-lang-en="Qualified Employees"
-                  data-lang-de="Qualifizierte Mitarbeiter"
-                >
-                  Qualified Employees
-                </h5>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- CTA Thin-->
-      <section class="section section-xs bg-primary-darken text-center">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-10 col-md-12">
-              <div class="box-cta-thin">
-                <h4 class="title wow-outer">
-                  <span
-                    class="wow slideInRight"
-                    data-lang-en="Helping Business Owners Worldwide"
-                    data-lang-de="Wir helfen Geschäftsinhabern weltweit"
-                    >Helping Business Owners Worldwide</span
-                  >
-                </h4>
-                <div class="wow-outer button-outer">
-                  <a
-                    class="button button-white-outline button-winona wow slideInLeft"
-                    href="contacts.html"
-                    data-lang-en="Get in Touch"
-                    data-lang-de="Kontakt aufnehmen"
-                    >Get in Touch</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Services-->
-      <section class="section section-lg bg-gray-100 text-center">
-        <div class="container">
-          <h3 class="wow-outer">
-            <span
-              class="wow slideInUp"
-              data-lang-en="What We Offer"
-              data-lang-de="Was wir anbieten"
-              >What We Offer</span
-            >
-          </h3>
-          <div class="row row-30">
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Creative-->
-              <article class="box-creative wow slideInDown">
-                <div class="box-creative-icon linearicons-power"></div>
-                <h4 class="box-creative-title">
-                  <a
-                    href="#"
-                    data-lang-en="Market Analysis"
-                    data-lang-de="Marktanalyse"
-                    >Market Analysis</a
-                  >
-                </h4>
-                <p
-                  data-lang-en="This service helps you discover the attractiveness of your products for customers taking buying patterns into account."
-                  data-lang-de="Dieser Service hilft Ihnen, die Attraktivität Ihrer Produkte für Kunden unter Berücksichtigung von Kaufmustern zu entdecken."
-                >
-                  This service helps you discover the attractiveness of your
-                  products for customers taking buying patterns into account.
-                </p>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Creative-->
-              <article
-                class="box-creative wow slideInDown"
-                data-wow-delay=".05s"
-              >
-                <div class="box-creative-icon linearicons-binoculars"></div>
-                <h4 class="box-creative-title">
-                  <a
-                    href="#"
-                    data-lang-en="Strategic Planning"
-                    data-lang-de="Strategische Planung"
-                    >Strategic Planning</a
-                  >
-                </h4>
-                <p
-                  data-lang-en="Strategic Planning can help you clarify your vision and mission, and reach your goals as you build your company's strategy."
-                  data-lang-de="Strategische Planung kann Ihnen helfen, Ihre Vision und Mission zu klären und Ihre Ziele zu erreichen, während Sie die Strategie Ihres Unternehmens entwickeln."
-                >
-                  Strategic Planning can help you clarify your vision and
-                  mission, and reach your goals as you build your company's
-                  strategy.
-                </p>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Creative-->
-              <article
-                class="box-creative wow slideInDown"
-                data-wow-delay=".1s"
-              >
-                <div class="box-creative-icon linearicons-bubble-text"></div>
-                <h4 class="box-creative-title">
-                  <a
-                    href="#"
-                    data-lang-en="Consultations"
-                    data-lang-de="Beratungen"
-                    >Consultations</a
-                  >
-                </h4>
-                <p
-                  data-lang-en="We also provide free consultations to clients looking for better understanding of their business capabilities."
-                  data-lang-de="Wir bieten auch kostenlose Beratungen für Kunden an, die ein besseres Verständnis ihrer Geschäftsmöglichkeiten suchen."
-                >
-                  We also provide free consultations to clients looking for
-                  better understanding of their business capabilities.
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Recent News-->
-      <section class="section section-lg text-center">
-        <div class="container">
-          <h3 class="wow-outer">
-            <span
-              class="wow slideInDown"
-              data-lang-en="Recent News"
-              data-lang-de="Aktuelle Nachrichten"
-              >Recent News</span
-            >
-          </h3>
-          <div class="row row-30">
-            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-              <!-- Post Tiny-->
-              <article class="post-tiny wow fadeSlideInDown">
-                <a class="post-tiny-media" href="#"
-                  ><img
-                    src="images/blog-layouts-1-270x184.jpg"
-                    alt=""
-                    width="270"
-                    height="184"
-                /></a>
-                <h5 class="post-tiny-title">
-                  <a
-                    href="#"
-                    data-lang-en="Market Research Tips for Business Owners"
-                    data-lang-de="Marktforschungstipps für Geschäftsinhaber"
-                    >Market Research Tips for Business Owners</a
-                  >
-                </h5>
-                <time
-                  class="post-tiny-time"
-                  datetime="2017"
-                  data-lang-en="2 days ago"
-                  data-lang-de="vor 2 Tagen"
-                  >2 days ago</time
-                >
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-              <!-- Post Tiny-->
-              <article
-                class="post-tiny wow fadeSlideInDown"
-                data-wow-delay=".05s"
-              >
-                <a class="post-tiny-media" href="#"
-                  ><img
-                    src="images/blog-layouts-2-270x184.jpg"
-                    alt=""
-                    width="270"
-                    height="184"
-                /></a>
-                <h5 class="post-tiny-title">
-                  <a
-                    href="#"
-                    data-lang-en="Managing Your Company Finances"
-                    data-lang-de="Verwaltung Ihrer Unternehmensfinanzen"
-                    >Managing Your Company Finances</a
-                  >
-                </h5>
-                <time
-                  class="post-tiny-time"
-                  datetime="2017"
-                  data-lang-en="2 days ago"
-                  data-lang-de="vor 2 Tagen"
-                  >2 days ago</time
-                >
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-              <!-- Post Tiny-->
-              <article
-                class="post-tiny wow fadeSlideInDown"
-                data-wow-delay=".1s"
-              >
-                <a class="post-tiny-media" href="#"
-                  ><img
-                    src="images/blog-layouts-3-270x184.jpg"
-                    alt=""
-                    width="270"
-                    height="184"
-                /></a>
-                <h5 class="post-tiny-title">
-                  <a
-                    href="#"
-                    data-lang-en="Efficient Accounting for Your Business"
-                    data-lang-de="Effiziente Buchhaltung für Ihr Unternehmen"
-                    >Efficient Accounting for Your Business</a
-                  >
-                </h5>
-                <time
-                  class="post-tiny-time"
-                  datetime="2017"
-                  data-lang-en="2 days ago"
-                  data-lang-de="vor 2 Tagen"
-                  >2 days ago</time
-                >
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-              <!-- Post Tiny-->
-              <article
-                class="post-tiny wow fadeSlideInDown"
-                data-wow-delay=".15s"
-              >
-                <a class="post-tiny-media" href="#"
-                  ><img
-                    src="images/blog-layouts-4-270x184.jpg"
-                    alt=""
-                    width="270"
-                    height="184"
-                /></a>
-                <h5 class="post-tiny-title">
-                  <a
-                    href="#"
-                    data-lang-en="Applying Innovations in Management"
-                    data-lang-de="Anwendung von Innovationen im Management"
-                    >Applying Innovations in Management</a
-                  >
-                </h5>
-                <time
-                  class="post-tiny-time"
-                  datetime="2017"
-                  data-lang-en="2 days ago"
-                  data-lang-de="vor 2 Tagen"
-                  >2 days ago</time
-                >
-              </article>
-            </div>
-          </div>
-          <div class="wow-outer button-outer offset-top-2">
-            <a
-              class="button button-dark-outline button-winona wow slideInUp"
-              href="#"
-              data-lang-en="View all Blog posts"
-              data-lang-de="Alle Blogbeiträge anzeigen"
-              >View all Blog posts</a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- A Few Words About Us-->
-      <section class="section bg-gray-100">
+
+      <section class="section bg-gray-100" id="ueber-mich">
         <div class="range justify-content-xl-between">
           <div class="cell-lg-6 cell-xl-5 align-self-center container">
             <div class="row">
@@ -698,97 +401,54 @@
                   <h3 class="wow-outer">
                     <span
                       class="wow slideInDown"
-                      data-lang-en="A Few Words About Us"
-                      data-lang-de="Ein paar Worte über uns"
-                      >A Few Words About Us</span
+                      data-lang-de="Über mich"
+                      data-lang-en="About Me"
+                      >Über mich</span
                     >
                   </h3>
                   <p
                     class="wow fadeIn"
-                    data-lang-en="Consulter is a business consulting company with more than 10 years of experience in the industry offering reliable and affordable services to a wide range of clients."
-                    data-lang-de="Consulter ist ein Unternehmensberatungsunternehmen mit mehr als 10 Jahren Branchenerfahrung, das zuverlässige und erschwingliche Dienstleistungen für eine breite Palette von Kunden anbietet."
+                    data-lang-de="Dr. Lars Haffke ist verlässlicher Partner im Kampf gegen Geldwäsche und finanzielle Kriminalität. Mit langjähriger Erfahrung und fundiertem Fachwissen unterstützt er Unternehmen dabei, regulatorische Vorgaben effizient umzusetzen und Risiken zu minimieren."
+                    data-lang-en="Dr. Lars Haffke is a reliable partner in the fight against money laundering and financial crime. With extensive experience and profound expertise, he supports companies in efficiently implementing regulatory requirements and minimizing risks."
                   >
-                    Consulter is a business consulting company with more than 10
-                    years of experience in the industry offering reliable and
-                    affordable services to a wide range of clients.
+                    Dr. Lars Haffke ist verlässlicher Partner im Kampf gegen
+                    Geldwäsche und finanzielle Kriminalität. Mit langjähriger
+                    Erfahrung und fundiertem Fachwissen unterstützt er
+                    Unternehmen dabei, regulatorische Vorgaben effizient
+                    umzusetzen und Risiken zu minimieren.
                   </p>
-                  <div class="progress-linear-outer wow-outer">
-                    <!-- Linear progress bar-->
-                    <article
-                      class="progress-linear wow slideInDown"
-                      data-wow-delay=".05s"
-                    >
-                      <div class="progress-header">
-                        <p data-lang-en="Consulting" data-lang-de="Beratung">
-                          Consulting
-                        </p>
-                        <span class="progress-value">90</span>
-                      </div>
-                      <div class="progress-bar-linear-wrap">
-                        <div class="progress-bar-linear"></div>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="progress-linear-outer wow-outer">
-                    <!-- Linear progress bar-->
-                    <article
-                      class="progress-linear progress-linear-color-1 wow slideInDown"
-                      data-wow-delay=".1s"
-                    >
-                      <div class="progress-header">
-                        <p data-lang-en="Analysis" data-lang-de="Analyse">
-                          Analysis
-                        </p>
-                        <span class="progress-value">65</span>
-                      </div>
-                      <div class="progress-bar-linear-wrap">
-                        <div class="progress-bar-linear"></div>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="progress-linear-outer wow-outer">
-                    <!-- Linear progress bar-->
-                    <article
-                      class="progress-linear progress-linear-color-2 wow slideInDown"
-                      data-wow-delay=".15s"
-                    >
-                      <div class="progress-header">
-                        <p data-lang-en="Research" data-lang-de="Forschung">
-                          Research
-                        </p>
-                        <span class="progress-value">100</span>
-                      </div>
-                      <div class="progress-bar-linear-wrap">
-                        <div class="progress-bar-linear"></div>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="progress-linear-outer wow-outer">
-                    <!-- Linear progress bar-->
-                    <article
-                      class="progress-linear progress-linear-color-3 wow slideInDown"
-                      data-wow-delay=".2s"
-                    >
-                      <div class="progress-header">
-                        <p data-lang-en="Strategy" data-lang-de="Strategie">
-                          Strategy
-                        </p>
-                        <span class="progress-value">75</span>
-                      </div>
-                      <div class="progress-bar-linear-wrap">
-                        <div class="progress-bar-linear"></div>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="wow-outer button-outer">
-                    <a
-                      class="button button-primary button-winona wow slideInUp"
-                      href="about-me.html"
-                      data-lang-en="Read more"
-                      data-lang-de="Weiterlesen"
-                      >Read more</a
-                    >
-                  </div>
+                  <p
+                    class="wow fadeIn"
+                    data-lang-de="Seine Erfahrungen sammelt Dr. Lars Haffke bei einer Big4-Wirtschaftsprüfungsgesellschaft sowie der Industrie im Bereich Compliance und Geldwäscheprävention. Bei dem RegTech- und Beratungsunternehmen Regpit steht er Verpflichteten aller Branchen als externer Geldwäschebeauftragter oder Berater zur Seite."
+                    data-lang-en="Dr. Lars Haffke gained his experience at a Big4 auditing firm and in industry in the areas of compliance and anti-money laundering prevention. At the RegTech and consulting company Regpit, he assists obliged entities from all sectors as an external money laundering reporting officer or consultant."
+                  >
+                    Seine Erfahrungen sammelt Dr. Lars Haffke bei einer
+                    Big4-Wirtschaftsprüfungsgesellschaft sowie der Industrie im
+                    Bereich Compliance und Geldwäscheprävention. Bei dem
+                    RegTech- und Beratungsunternehmen Regpit steht er
+                    Verpflichteten aller Branchen als externer
+                    Geldwäschebeauftragter oder Berater zur Seite.
+                  </p>
+                  <p
+                    class="wow fadeIn"
+                    data-lang-de="Sein Fokus liegt auf der Entwicklung maßgeschneiderter Compliance-Strategien, praxisnahen Schulungen und innovativen Lösungen für die Geldwäscheprävention. Als anerkannter Experte und Lehrbeauftragter weiß er, wie wichtig eine klare, rechtssichere Vorgehensweise in einer immer komplexer werdenden regulatorischen Umgebung ist."
+                    data-lang-en="His focus lies on developing tailor-made compliance strategies, practical training sessions, and innovative solutions for anti-money laundering prevention. As a recognized expert and lecturer, he understands the importance of a clear, legally sound approach in an increasingly complex regulatory environment."
+                  >
+                    Sein Fokus liegt auf der Entwicklung maßgeschneiderter
+                    Compliance-Strategien, praxisnahen Schulungen und
+                    innovativen Lösungen für die Geldwäscheprävention. Als
+                    anerkannter Experte und Lehrbeauftragter weiß er, wie
+                    wichtig eine klare, rechtssichere Vorgehensweise in einer
+                    immer komplexer werdenden regulatorischen Umgebung ist.
+                  </p>
+                  <p
+                    class="wow fadeIn"
+                    data-lang-de="Klare Konzepte, Sicherheit und digitale Technologien – das ist der Grundstein für eine effiziente Geldwäschecompliance."
+                    data-lang-en="Clear concepts, security, and digital technologies – this is the cornerstone for efficient anti-money laundering compliance."
+                  >
+                    Klare Konzepte, Sicherheit und digitale Technologien – das
+                    ist der Grundstein für eine effiziente Geldwäschecompliance.
+                  </p>
                 </div>
               </div>
             </div>
@@ -797,8 +457,8 @@
             <div class="figure-card">
               <div class="figure-card-sizer"></div>
               <img
-                src="images/screens-2-960x762.jpg"
-                alt=""
+                src="images/lars-haffke-about-placeholder.jpg"
+                alt="Dr. Lars Haffke"
                 width="960"
                 height="762"
               />
@@ -806,10 +466,17 @@
           </div>
         </div>
       </section>
-      <!-- Partners-->
-      <section class="section section-sm text-center">
+
+      <section class="section section-lg text-center">
         <div class="container">
-          <!-- Owl Carousel-->
+          <h3 class="wow-outer">
+            <span
+              class="wow slideInDown"
+              data-lang-de="Referenzen & Medien"
+              data-lang-en="References & Media"
+              >Referenzen & Medien</span
+            >
+          </h3>
           <div
             class="owl-carousel owl-carousel-1"
             data-items="2"
@@ -819,97 +486,90 @@
             data-dots="true"
             data-nav="false"
             data-stage-padding="0"
-            data-loop="true"
+            data-loop="false"
             data-margin="30"
-            data-mouse-drag="false"
+            data-mouse-drag="true"
           >
             <div class="item wow-outer">
               <div class="wow slideInLeft">
-                <a class="link-image" href="#"
-                  ><img
-                    src="images/logo-john-brad-135x87.png"
-                    alt=""
-                    width="135"
-                    height="87"
-                /></a>
+                <img
+                  src="images/logos/placeholder-regpit.png"
+                  alt="Regpit Logo"
+                  width="135"
+                  height="87"
+                />
               </div>
             </div>
             <div class="item wow-outer">
               <div class="wow slideInLeft" data-wow-delay=".05s">
-                <a class="link-image" href="#"
-                  ><img
-                    src="images/logo-the-oldbrand-134x104.png"
-                    alt=""
-                    width="134"
-                    height="104"
-                /></a>
+                <img
+                  src="images/logos/placeholder-tum.png"
+                  alt="TU München Logo"
+                  width="134"
+                  height="104"
+                />
               </div>
             </div>
             <div class="item wow-outer">
               <div class="wow slideInLeft" data-wow-delay=".1s">
-                <a class="link-image" href="#"
-                  ><img
-                    src="images/logo-havana-cabana-132x87.png"
-                    alt=""
-                    width="132"
-                    height="87"
-                /></a>
+                <img
+                  src="images/logos/placeholder-forum.png"
+                  alt="FORUM Institut Logo"
+                  width="132"
+                  height="87"
+                />
               </div>
             </div>
             <div class="item wow-outer">
               <div class="wow slideInLeft" data-wow-delay=".15s">
-                <a class="link-image" href="#"
-                  ><img
-                    src="images/logo-brownie-143x85.png"
-                    alt=""
-                    width="143"
-                    height="85"
-                /></a>
+                <img
+                  src="images/logos/placeholder-chbeck.png"
+                  alt="C.H. Beck Verlag Logo"
+                  width="143"
+                  height="85"
+                />
               </div>
             </div>
             <div class="item wow-outer">
               <div class="wow slideInLeft" data-wow-delay=".2s">
-                <a class="link-image" href="#"
-                  ><img
-                    src="images/logo-hillplan-111x85.png"
-                    alt=""
-                    width="111"
-                    height="85"
-                /></a>
+                <img
+                  src="images/logos/placeholder-sz.png"
+                  alt="Süddeutsche Zeitung Logo"
+                  width="111"
+                  height="85"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <footer class="section footer-minimal bg-secondary">
         <div class="container">
           <div class="footer-minimal-inner">
             <a class="brand" href="index.html"
               ><img
                 src="images/LarsWebsiteLogo.png"
-                alt=""
+                alt="Dr. Lars Haffke Logo"
                 width="199"
                 height="22"
             /></a>
-            <!-- Rights-->
             <p class="rights">
-              <span>&copy;&nbsp;</span><span class="copyright-year"></span>.
+              <span>&copy;&nbsp;</span><span class="copyright-year"></span
+              ><span> Dr. Lars Haffke. </span>
               <span
-                data-lang-en="All Rights Reserved"
                 data-lang-de="Alle Rechte vorbehalten"
-                >All Rights Reserved</span
-              >
+                data-lang-en="All Rights Reserved"
+                >Alle Rechte vorbehalten</span
+              >.
             </p>
           </div>
         </div>
       </footer>
     </div>
-    <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- Add the new translation script -->
     <script src="js/translate.js"></script>
   </body>
 </html>
